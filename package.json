@@ -1,0 +1,31 @@
+{
+  "name": "visualcourse",
+  "version": "1.0.0",
+  "description": "这个仓库用来学习二维(Canvas)和三维(WebGPU)图像",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "vitepress": "^0.21.6"
+  },
+  "devDependencies": {
+    "@webgpu/types": "^0.1.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEndTeam/visualCourse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEndTeam/visualCourse/issues"
+  },
+  "homepage": "https://github.com/FEndTeam/visualCourse#readme"
+}
